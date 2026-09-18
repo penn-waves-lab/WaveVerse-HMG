@@ -123,7 +123,3 @@ If you use WaveVerse-HMG in your research, please cite:
   year={2026},
 }
 ```
-
-## License
-
-The inherited T2M-GPT license is preserved in [waveverse_hmg/LICENSE](waveverse_hmg/LICENSE).
