@@ -1,0 +1,49 @@
+{
+  "dataname": "t2m",
+  "batch_size": 128,
+  "block_size": 165,
+  "clip_dim": 512,
+  "code_dim": 512,
+  "depth": 3,
+  "dilation_growth_rate": 3,
+  "down_t": 2,
+  "drop_out_rate": 0.1,
+  "embed_dim_gpt": 512,
+  "eval_iter": 2000,
+  "ff_rate": 4,
+  "gamma": 0.05,
+  "lr": 0.0001,
+  "lr_scheduler": [
+    150000
+  ],
+  "mu": 0.99,
+  "n_head_gpt": 8,
+  "nb_code": 512,
+  "num_layers": 4,
+  "optimizer": "adamw",
+  "output_emb_width": 512,
+  "pkeep": 0.5,
+  "print_iter": 200,
+  "quantizer": "ema_reset",
+  "seed": 123,
+  "stride_t": 2,
+  "total_iter": 300000,
+  "vq_name": "VQVAE",
+  "weight_decay": 1e-06,
+  "width": 512,
+  "num_workers": 8,
+  "save_iter": 1000,
+  "path_masking": true,
+  "path_mask_rate": [
+    0.5,
+    0.9
+  ],
+  "path_mask_max_len": 5,
+  "path_mask_attempts": 20,
+  "path_mask_skip_prob": 0.1,
+  "eval_split": "test",
+  "pose_loss_weight": 0.0,
+  "keep_iter": [
+    266000
+  ]
+}
